@@ -35,9 +35,17 @@
         <a href="index.html" class="btn btn-secondary btn-sm">
           &larr; Back to Live Portfolio
         </a>
-        <button class="btn btn-primary btn-sm" id="print-spec-btn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-          <span>Print / Export PDF</span>
+        <a href="HI_FI_FRAMEWORK_CRISOSTOMO.pdf" download class="btn btn-primary btn-sm" style="background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download PDF</span>
+        </a>
+        <a href="HI_FI_FRAMEWORK.drawio" download class="btn btn-secondary btn-sm" title="Download Draw.io / Figma vector wireframe">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          <span>Draw.io / Figma (.drawio)</span>
+        </a>
+        <button class="btn btn-secondary btn-sm" id="print-spec-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          <span>Print Spec</span>
         </button>
       </div>
     </div>
@@ -56,6 +64,18 @@
         <p class="spec-subtitle">
           Comprehensive documentation prepared for academic checking and design evaluation. Includes Low-Fidelity blueprints, High-Fidelity UI mockups, atomic design tokens, accessibility metrics, and responsive viewport simulations.
         </p>
+
+        <!-- SUBMISSION DOWNLOADS BAR -->
+        <div class="spec-downloads-bar" style="margin-top: 24px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center;">
+          <a href="HI_FI_FRAMEWORK_CRISOSTOMO.pdf" download class="btn btn-primary" style="background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%); padding: 12px 24px; font-weight: 700; box-shadow: 0 4px 16px rgba(2, 132, 199, 0.4); text-decoration: none; display: inline-flex; align-items: center; gap: 10px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <span>Download HI-FI Framework (PDF for Submission)</span>
+          </a>
+          <a href="HI_FI_FRAMEWORK.drawio" download class="btn btn-secondary" style="border-color: rgba(99, 102, 241, 0.5); background: rgba(99, 102, 241, 0.12); padding: 12px 22px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 10px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            <span>Download Editable Wireframe (.drawio / Figma)</span>
+          </a>
+        </div>
 
         <div class="spec-meta-bar">
           <div class="spec-meta-item">Author / Student: <strong>Kymer Oriel Crisostomo (4th Year BSIS)</strong></div>

@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" modified="2026-10-16T15:37:00.000Z" agent="Mozilla/5.0" version="22.1.0" type="device">
+  <diagram id="hifi-framework" name="HI-FI Wireframe Framework - Kymer Crisostomo">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="2200" background="#0a0d14" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- CANVAS BOUNDS (Desktop 1440px) -->
+        <mxCell id="canvas_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0a0d14;strokeColor=#1e293b;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1400" height="2160" as="geometry" />
+        </mxCell>
+
+        <!-- TOP BAR / HEADER -->
+        <mxCell id="header_bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0f1422;strokeColor=#334155;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="logo_badge" value="KC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="35" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="logo_text" value="Kymer.is | BSIS CHMSU" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#f8fafc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_links" value="Home      About      Projects      Skills      Experience      Certifications      [📐 Wireframes]      Contact" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#94a3b8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_blueprint" value="📐 Blueprint Mode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0284c7;strokeColor=#38bdf8;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="35" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- HERO SECTION -->
+        <mxCell id="hero_status" value="● 4th-Year BS Information Systems • CHMSU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#162d27;strokeColor=#10b981;fontColor=#10b981;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hero_h1" value="Developing Information Systems that Optimize Business Processes &amp; Data." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=#f8fafc;fontStyle=1;leading=40;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="640" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hero_sub" value="Kymer Oriel Crisostomo — BSIS student at Carlos Hilado Memorial State University with practical experience in web application development, database management, system documentation, and software testing." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#94a3b8;leading=22;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_cta1" value="View Featured Projects →" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_cta2" value="Check Wireframes Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#f8fafc;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_cta3" value="View Resume" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#475569;fontColor=#94a3b8;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="130" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- PROFILE CARD HERO -->
+        <mxCell id="profile_card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#38bdf8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="440" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="profile_photo" value="[Kymer Oriel Crisostomo Portrait]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f293d;strokeColor=#475569;fontColor=#38bdf8;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="160" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="profile_meta" value="Kymer Oriel Crisostomo | Web Dev &amp; Information Systems" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#f8fafc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="405" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- CHECKPOINT BANNER -->
+        <mxCell id="check_banner" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f1c30;strokeColor=#0284c7;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="1260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="check_text" value="📐 EVALUATION CHECKPOINT: Wireframes &amp; Design System Ready for Checking&#xa;Complete Low-Fidelity &amp; High-Fidelity wireframes, 12-column layout grids, WCAG AAA color token matrix, responsive simulator." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#e0f2fe;" vertex="1" parent="1">
+          <mxGeometry x="110" y="505" width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_check_hub" value="Open Design Spec Hub →" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0284c7;strokeColor=none;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="515" width="220" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ABOUT SECTION -->
+        <mxCell id="about_title" value="Adaptable, Focused on Continuous Improvement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#f8fafc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="1260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bento1" value="💻 Web Development&#xa;Django, Python, HTML/CSS, Bootstrap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bento2" value="🗄️ Database Management&#xa;PostgreSQL, SQLite, Data Modeling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bento3" value="📝 System Documentation&#xa;User workflows, testing, reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bento4" value="📊 Data Analysis&#xa;Business process improvement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="680" width="300" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- FEATURED PROJECTS -->
+        <mxCell id="proj_title" value="Selected Information Systems Projects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#f8fafc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="1260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_flagship" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#10b981;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="1260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_flagship_thumb" value="[Lantad Crayfish Dashboard Preview]&#xa;Water Telemetry (28.1°C, DO, pH)&#xa;Stock Batches (Redclaw Crayfish &amp; Superworms)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#38bdf8;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="905" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_flagship_body" value="Aquaculture Farm Tracking and Sales System (Lantad Crayfish)&#xa;&#xa;Designed modules for stock monitoring, harvest management, sales, inventory, orders, and reports for the Lantad Crayfish &amp; Silay Superworm Farm. Focused on organizing farm stock and sales information for easier monitoring.&#xa;&#xa;Tech: Django 6.x | Python | HTMX | PostgreSQL / SQLite | Sales &amp; Inventory" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#f8fafc;leading=22;" vertex="1" parent="1">
+          <mxGeometry x="690" y="910" width="620" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- SUB PROJECTS -->
+        <mxCell id="proj_sub1" value="Web-Based Employee Task Monitoring System&#xa;&#xa;Developed system concept for creating, assigning, monitoring, and documenting employee tasks. Admin and employee workflows with task evidence and reporting.&#xa;&#xa;Tags: Task Workflows, Evidence Submission, Role-Based Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#e2e8f0;fontSize=12;align=left;valign=top;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1190" width="610" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_sub2" value="Django Web Application Development &amp; Cloud Databases&#xa;&#xa;Experience building database-driven web systems using Django and Bootstrap. Worked with PostgreSQL and explored deployment and cloud database solutions.&#xa;&#xa;Tags: Django, Bootstrap, PostgreSQL, Cloud Databases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#e2e8f0;fontSize=12;align=left;valign=top;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1190" width="620" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- EXPERIENCE & EDUCATION -->
+        <mxCell id="exp_title" value="Experience &amp; Education" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#f8fafc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1370" width="1260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exp_card1" value="Research Office Student Assistant (2024–2025)&#xa;Carlos Hilado Memorial State University (CHMSU)&#xa;• Assisted with research administrative &amp; documentation tasks&#xa;• Supported organization &amp; preparation of research records&#xa;• Assisted in data gathering, encoding, and office activities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#10b981;fontColor=#f8fafc;fontSize=12;align=left;valign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1420" width="610" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="exp_card2" value="Bachelor of Science in Information Systems (2023–Present)&#xa;Carlos Hilado Memorial State University (CHMSU)&#xa;• 4th Year Student&#xa;• Focus on Web Development, Databases, Information Systems&#xa;• Secondary: Rizal Elementary School / Secondary Education" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#38bdf8;fontColor=#f8fafc;fontSize=12;align=left;valign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1420" width="620" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- CERTIFICATIONS -->
+        <mxCell id="cert_title" value="Certifications &amp; Training" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#f8fafc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1570" width="1260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="☁️ Google Cloud&#xa;Trust &amp; Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1620" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="🌐 Cisco Academy&#xa;Networking Fundamentals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1620" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="🐍 Python Programming&#xa;Training / Online" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1620" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="💻 Programming Fundamentals&#xa;Training / Online" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1620" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="🔧 Computer Hardware&#xa;Hardware Diagnostics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#f8fafc;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1620" width="230" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- FOOTER -->
+        <mxCell id="footer_bar" value="KYMER ORIEL CRISOSTOMO | BS INFORMATION SYSTEMS | CHMSU&#xa;Handcrafted High-Fidelity UI/UX Framework &amp; Wireframe Specification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0f1422;strokeColor=#334155;fontColor=#94a3b8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2090" width="1400" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
