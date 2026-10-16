@@ -277,95 +277,136 @@
     <!-- ======================================================================
          FEATURED PROJECTS SECTION
          ====================================================================== -->
+    <!-- ======================================================================
+         FEATURED PROJECTS SECTION - LANTAD CRAYFISH
+         ====================================================================== -->
     <section id="projects">
       <div class="container">
         <div class="section-header-center">
-          <span class="section-tag">Portfolio Showcase</span>
-          <h2 class="section-title">Selected <span>Engineering</span> Works</h2>
+          <span class="section-tag">Featured Project</span>
+          <h2 class="section-title">Lantad Crayfish <span>Aquaculture System</span></h2>
           <p class="section-desc">
-            A curated collection of full-stack platforms, developer tools, and interactive applications built with modern web technologies.
+            Silay Superworm & Crayfish Aquaculture Management System — An enterprise-grade full-stack agricultural management platform designed and built by Kymer Oriel Crisostomo.
           </p>
         </div>
 
         <!-- Filter Controls -->
         <div class="project-filters">
-          <button class="filter-btn active" data-filter="all">All Projects</button>
-          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
-          <button class="filter-btn" data-filter="frontend">Frontend & UI</button>
-          <button class="filter-btn" data-filter="systems">Systems & Real-time</button>
+          <button class="filter-btn active" data-filter="all">All Modules</button>
+          <button class="filter-btn" data-filter="flagship">Flagship System</button>
+          <button class="filter-btn" data-filter="telemetry">Pond Telemetry</button>
+          <button class="filter-btn" data-filter="sales">Sales & Logistics</button>
         </div>
 
         <!-- Projects Grid -->
         <div class="projects-grid">
 
-          <!-- Project 1: NexusCloud -->
-          <article class="project-card" data-category="fullstack">
-            <div class="project-thumb">
-              <img src="assets/images/project_nexuscloud.jpg" alt="NexusCloud Dashboard Preview">
-              <div class="project-overlay">
-                <button class="btn btn-primary btn-sm open-project-modal" data-project="nexuscloud">View Architecture</button>
-                <a href="https://github.com/KYmer-dotcom/crisostomo-portfolio" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub</a>
+          <!-- Project 1: Flagship System -->
+          <article class="project-card" data-category="flagship" style="grid-column: 1 / -1;">
+            <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--space-6); background: var(--bg-glass-card); border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--border-subtle);">
+              <div class="project-thumb" style="aspect-ratio: auto; min-height: 380px;">
+                <img src="assets/images/project_lantad_crayfish.jpg" alt="Silay Superworm & Crayfish Management System Dashboard" style="height: 100%; object-fit: cover;">
+                <div class="project-overlay">
+                  <button class="btn btn-primary btn-sm open-project-modal" data-project="lantad_crayfish">View Full Architecture</button>
+                  <a href="https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub Repository</a>
+                </div>
               </div>
-            </div>
-            <div class="project-body">
-              <span class="project-category">Cloud Infrastructure</span>
-              <h3 class="project-title">NexusCloud Dashboard</h3>
-              <p class="project-desc">
-                Observability suite for distributed Kubernetes clusters featuring sub-second telemetry streams, real-time node health monitoring, and automated alerts.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">React</span>
-                <span class="project-tag">Node.js</span>
-                <span class="project-tag">Docker</span>
-                <span class="project-tag">WebSockets</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 2: AuraFlow -->
-          <article class="project-card" data-category="frontend">
-            <div class="project-thumb">
-              <img src="assets/images/project_auraflow.jpg" alt="AuraFlow AI Canvas Preview">
-              <div class="project-overlay">
-                <button class="btn btn-primary btn-sm open-project-modal" data-project="auraflow">View Architecture</button>
-                <a href="https://github.com/KYmer-dotcom/crisostomo-portfolio" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub</a>
-              </div>
-            </div>
-            <div class="project-body">
-              <span class="project-category">AI & Creative Tooling</span>
-              <h3 class="project-title">AuraFlow Studio</h3>
-              <p class="project-desc">
-                Infinite canvas workspace connecting multi-model generative AI pipelines with visual node connections, sentiment analysis, and live documentation inspectors.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">TypeScript</span>
-                <span class="project-tag">WebGL</span>
-                <span class="project-tag">FastAPI</span>
-                <span class="project-tag">Tailwind</span>
+              <div class="project-body" style="justify-content: center; padding: var(--space-8);">
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                  <img src="assets/images/lantad_crayfish_logo.jpg" alt="Silay Superworm & Crayfish Logo" style="width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--accent-emerald);">
+                  <div>
+                    <span class="project-category" style="color: var(--accent-emerald); font-weight: 700; font-size: 11px;">Flagship Enterprise Capstone</span>
+                    <h3 class="project-title" style="font-size: 1.6rem; margin: 0;">Silay Superworm & Crayfish Aquaculture Management System</h3>
+                  </div>
+                </div>
+                <p class="project-desc" style="font-size: 0.95rem; line-height: 1.7; margin-bottom: 20px;">
+                  Comprehensive production aquaculture platform built to automate pond management, stock tracking, and sales logistics for <strong>Lantad Crayfish & Superworm Farm</strong> in Silay. Handles real-time telemetry for aquatic tanks, batch maturity for Redclaw Crayfish (₱2,500/kg), superworm grids (₱500/kg), and Azolla cultivation (₱35/kg).
+                </p>
+                <div class="project-tags" style="margin-bottom: 24px;">
+                  <span class="project-tag">Django 6.x</span>
+                  <span class="project-tag">Django REST Framework</span>
+                  <span class="project-tag">HTMX Partials</span>
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">SQLite3 / PostgreSQL</span>
+                  <span class="project-tag">JWT Auth</span>
+                  <span class="project-tag">Pillow</span>
+                </div>
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                  <button class="btn btn-primary btn-sm open-project-modal" data-project="lantad_crayfish">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><line x1="12" y1="4" x2="12" y2="20"></line></svg>
+                    <span>System Specifications</span>
+                  </button>
+                  <a href="https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>View GitHub Repo</span>
+                  </a>
+                </div>
               </div>
             </div>
           </article>
 
-          <!-- Project 3: FinPulse -->
-          <article class="project-card" data-category="systems">
+          <!-- Module 1: Stock & Breeding -->
+          <article class="project-card" data-category="telemetry">
             <div class="project-thumb">
-              <img src="assets/images/project_finpulse.jpg" alt="FinPulse Trading Terminal Preview">
+              <img src="assets/images/project_lantad_crayfish.jpg" alt="Stock Monitoring & Species Classification">
               <div class="project-overlay">
-                <button class="btn btn-primary btn-sm open-project-modal" data-project="finpulse">View Architecture</button>
-                <a href="https://github.com/KYmer-dotcom/crisostomo-portfolio" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub</a>
+                <button class="btn btn-primary btn-sm open-project-modal" data-project="lantad_stock">Inspect Module</button>
               </div>
             </div>
             <div class="project-body">
-              <span class="project-category">FinTech & Real-Time</span>
-              <h3 class="project-title">FinPulse Trading Terminal</h3>
+              <span class="project-category">Lantad Module &bull; apps/fish</span>
+              <h3 class="project-title">Stock Monitoring & Breeding</h3>
               <p class="project-desc">
-                High-frequency trading terminal delivering custom 60 FPS HTML5 Canvas candlestick charting, live order-book depth ladders, and instant paper trading.
+                Automated aquatic lifecycle tracking. Monitors active stock batches, breeding pairings, molting stages, and mortality rates for Redclaw Crayfish and superworms.
               </p>
               <div class="project-tags">
-                <span class="project-tag">JavaScript ES6+</span>
-                <span class="project-tag">Canvas API</span>
-                <span class="project-tag">WebSocket</span>
-                <span class="project-tag">CSS Grid</span>
+                <span class="project-tag">Stock Batches</span>
+                <span class="project-tag">Species ID</span>
+                <span class="project-tag">Breeder Tracking</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Module 2: Pond Operations -->
+          <article class="project-card" data-category="telemetry">
+            <div class="project-thumb">
+              <img src="assets/images/project_lantad_crayfish.jpg" alt="Ponds & Operational Telemetry">
+              <div class="project-overlay">
+                <button class="btn btn-primary btn-sm open-project-modal" data-project="lantad_crayfish">Inspect Module</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Lantad Module &bull; apps/ponds</span>
+              <h3 class="project-title">Pond Operations & Water Telemetry</h3>
+              <p class="project-desc">
+                Environmental monitoring system managing farm ponds, water temperature telemetry (28.1°C), dissolved oxygen levels, and caretaker task delegation.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Telemetry</span>
+                <span class="project-tag">Water Sensors</span>
+                <span class="project-tag">HTMX Partials</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Module 3: Commercial Sales & Dispatch -->
+          <article class="project-card" data-category="sales">
+            <div class="project-thumb">
+              <img src="assets/images/lantad_crayfish_logo.jpg" alt="Sales & Delivery Logistics" style="object-fit: contain; background: #162438;">
+              <div class="project-overlay">
+                <button class="btn btn-primary btn-sm open-project-modal" data-project="lantad_sales">Inspect Module</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Lantad Module &bull; apps/sales</span>
+              <h3 class="project-title">Sales, Inventory & Delivery</h3>
+              <p class="project-desc">
+                Full e-commerce and B2B ordering module. Features product inventory pricing, order tracking, dispatch map pins, customer portals, and exportable PDF/CSV reports.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Product Catalog</span>
+                <span class="project-tag">Shipment Routes</span>
+                <span class="project-tag">PDF / CSV Reports</span>
               </div>
             </div>
           </article>

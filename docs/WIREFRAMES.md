@@ -77,16 +77,15 @@ Before committing to code implementation, this document and its accompanying wir
 │  └─────────────────────────────────┘   └───────────────┴───────────────┘      │
 │                                                                               │
 ├───────────────────────────────────────────────────────────────────────────────┤
+│  FEATURED PROJECT: Lantad Crayfish Aquaculture System                         │
+│  [ All Modules ]   [ Flagship System ]   [ Pond Telemetry ]   [ Sales ]       │
 │                                                                               │
-│  PORTFOLIO SHOWCASE: Selected Engineering Works                               │
-│  [ All Projects ]   [ Full-Stack ]   [ Frontend & UI ]   [ Systems & Real-time ]│
-│                                                                               │
-│  ┌──────────────────────┐ ┌──────────────────────┐ ┌──────────────────────┐   │
-│  │ [Image: NexusCloud]  │ │ [Image: AuraFlow]    │ │ [Image: FinPulse]    │   │
-│  │ Cloud Infrastructure │ │ AI & Creative Tool   │ │ FinTech Terminal     │   │
-│  │ NexusCloud Dashboard │ │ AuraFlow Studio      │ │ FinPulse Trading     │   │
-│  │ [React] [Node] [K8s] │ │ [TS] [WebGL] [FastAPI│ │ [JS] [Canvas] [WS]   │   │
-│  └──────────────────────┘ └──────────────────────┘ └──────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────────┐  │
+│  │ [Dashboard: Silay Aquaculture Management System]                        │  │
+│  │ [Logo: Silay Superworm & Crayfish]                                      │  │
+│  │ Real-time Pond Telemetry, Stock Batches, Breeding Cycles, Sales Dispatch│  │
+│  │ [Django 6.x] [HTMX] [DRF] [Python] [PostgreSQL] [JWT Auth]              │  │
+│  └─────────────────────────────────────────────────────────────────────────┘  │
 │                                                                               │
 ├───────────────────────────────────────────────────────────────────────────────┤
 │                                                                               │
@@ -158,7 +157,7 @@ Before committing to code implementation, this document and its accompanying wir
 │ [Filter Dropdown / Pills]       │
 │ ┌─────────────────────────────┐ │
 │ │ [Project Thumbnail]         │ │
-│ │ NexusCloud Dashboard        │ │
+│ │ Lantad Crayfish System        │ │
 │ │ [View Architecture Modal]   │ │
 │ └─────────────────────────────┘ │
 ├─────────────────────────────────┤

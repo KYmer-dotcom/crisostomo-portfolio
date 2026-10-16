@@ -53,10 +53,9 @@ Crisostomo Project/
 │   └── wireframes-page.js       # Viewport switcher, color copy & rubric checklist logic
 ├── assets/
 │   ├── images/
-│   │   ├── profile_avatar.jpg   # Portrait of Kymer Oriel Crisostomo
-│   │   ├── project_nexuscloud.jpg # NexusCloud Dashboard UI preview
-│   │   ├── project_auraflow.jpg   # AuraFlow AI Studio UI preview
-│   │   └── project_finpulse.jpg   # FinPulse Trading Terminal UI preview
+│   │   ├── profile_avatar.jpg        # Real Portrait of Kymer Oriel Crisostomo
+│   │   ├── lantad_crayfish_logo.jpg  # Official Silay Superworm & Crayfish Logo
+│   │   └── project_lantad_crayfish.jpg # Lantad Crayfish Aquaculture Dashboard
 │   └── designs/
 │       ├── lofi_wireframes_sheet.jpg  # Low-Fidelity wireframe schematics
 │       ├── hifi_portfolio_mockup.jpg  # High-Fidelity UI design mockup
@@ -71,6 +70,7 @@ Crisostomo Project/
 
 ## 🛠️ Features & Engineering Highlights
 
+- **Flagship Project:** Silay Superworm & Crayfish Aquaculture Management System (Lantad Crayfish) built with Django, HTMX, DRF, and real-time pond telemetry.
 - **Pure Modern Vanilla Web Stack:** Zero build dependencies required — open `index.html` directly in any modern browser.
 - **Interactive Canvas Mesh:** Lightweight particle animation that dynamically responds to mouse movement.
 - **Glassmorphism & Micro-Interactions:** Modern frosted glass cards with subtle elevation transitions and Web Audio API click feedback.

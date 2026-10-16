@@ -261,47 +261,46 @@ function initProjectFilters() {
    5. Project Modals & Deep Dives
    ========================================================================== */
 const projectDetails = {
-  nexuscloud: {
-    title: 'NexusCloud - DevOps Infrastructure Monitor',
-    category: 'Full-Stack & Cloud Architecture',
-    desc: 'An enterprise-grade distributed infrastructure observability dashboard. Features sub-second telemetry streams, real-time node health clustering, automated pod remediation triggers, and custom Prometheus-compatible metrics exporters.',
-    tech: ['React 18', 'Node.js', 'Express', 'Docker', 'WebSockets', 'Chart.js', 'PostgreSQL'],
+  lantad_crayfish: {
+    title: 'Silay Superworm & Crayfish Aquaculture Management System',
+    category: 'Full-Stack Enterprise Capstone & Aquaculture IoT',
+    desc: 'An enterprise-grade aquaculture and inventory management system designed and developed by Kymer Oriel Crisostomo for the Lantad Crayfish & Superworm Farm in Silay. Built using Django 6.x, Django REST Framework, HTMX, and SQLite3/PostgreSQL. Automates farm pond monitoring, live temperature & pH water telemetry, breeding cycle records, commercial pricing, and scheduled deliveries.',
+    tech: ['Django 6.x', 'Django REST Framework', 'HTMX Partials', 'Python', 'Tailwind / Vanilla CSS', 'SQLite3 / PostgreSQL', 'JWT Auth', 'Pillow'],
     features: [
-      'Real-time WebSocket event ingestion pipeline handling 10k events/sec',
-      'Interactive cluster topology canvas visualizing microservices health',
-      'Automated threshold alerts with Slack and Webhook integrations',
-      'Dark-mode glassmorphic interface with accessible high-contrast modes'
+      'Real-Time Water Telemetry: Live temperature (28.1°C), dissolved oxygen (DO), and pH tracking for farm ponds',
+      'Automated Stock Lifecycle Tracking: Batch-level maturity records for Redclaw Breeder Crayfish (₱2,500/kg), Superworms (₱500/kg), and Azolla feeds (₱35/kg)',
+      'Delivery & Logistics Dispatch: Order routing, shipment statuses, interactive delivery map pins, and transaction tracking',
+      'Multi-Tier Role Administration: Dedicated portals and permissions for Owner, Farm Manager, Caretakers, and Customers',
+      'Predictive Reports & Forecasts: AI-driven harvest yield forecasting with downloadable PDF and CSV analytical exports'
     ],
-    github: 'https://github.com/KYmer-dotcom/crisostomo-portfolio',
-    demo: '#'
+    github: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-',
+    demo: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-'
   },
-  auraflow: {
-    title: 'AuraFlow - AI Collaborative Canvas',
-    category: 'Frontend & Creative Tooling',
-    desc: 'Infinite canvas workflow studio connecting generative AI models with node-based logic pipelines. Users can visually map prompts, sentiment analysis nodes, markdown inspectors, and multi-model chains in real time.',
-    tech: ['TypeScript', 'WebGL', 'HTML5 Canvas', 'Tailwind/Vanilla CSS', 'Python Fast-API', 'OpenAI API'],
+  lantad_stock: {
+    title: 'Lantad Stock Monitoring & Breeding Module',
+    category: 'Aquaculture Stock Lifecycle Management (apps/fish)',
+    desc: 'Specialized aquatic species classification and density tracking module within the Lantad Crayfish system. Governs Redclaw Crayfish breeder pairs, superworm feeding grids, molting observations, and mortality mitigation algorithms.',
+    tech: ['Django apps/fish', 'HTMX Partials', 'Python', 'Database Aggregations'],
     features: [
-      'Hardware-accelerated infinite 2D canvas with smooth pan, zoom, and multi-touch gestures',
-      'Dynamic Bezier curve node connection system with collision detection',
-      'Markdown live documentation inspector with syntax highlighting',
-      'Real-time multi-user cursor synchronization over WebRTC'
+      'Active batch maturity timelines for Redclaw Crayfish (Batch #104: 12,500 units)',
+      'Superworm grid cultivation trays with scheduled nutritional rotation',
+      'Feeding weight calculation based on biomass and pond temperature'
     ],
-    github: 'https://github.com/KYmer-dotcom/crisostomo-portfolio',
-    demo: '#'
+    github: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-',
+    demo: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-'
   },
-  finpulse: {
-    title: 'FinPulse - High-Frequency Trading Terminal',
-    category: 'FinTech & Real-Time Systems',
-    desc: 'A responsive financial trading terminal and crypto analytics platform. Delivers institutional-grade candlestick charts, live L2 order book depth ladders, market sentiment trackers, and instant paper trading simulation.',
-    tech: ['Vanilla JavaScript (ES6+)', 'HTML5 Canvas API', 'CSS Grid', 'REST / Binance WebSocket API'],
+  lantad_sales: {
+    title: 'Lantad Commercial Sales & Inventory Dispatch',
+    category: 'E-Commerce & Supply Chain Logistics (apps/sales)',
+    desc: 'Commercial sales management module facilitating customer orders, pricing tables (Azolla ₱35/kg, Superworm ₱500/kg, Crayfish ₱2,500/kg), payment receipts, and delivery dispatch logistics.',
+    tech: ['Django apps/sales', 'Django REST Framework', 'PDF/CSV Generators', 'Session & JWT Auth'],
     features: [
-      'Custom lightweight 60 FPS HTML5 Canvas candlestick charting engine',
-      'Real-time depth chart calculation with visual liquidity bid/ask walls',
-      'Instant paper-trade order execution with local portfolio accounting',
-      'Sub-50ms latency WebSocket market data processor'
+      'Customer order processing with live inventory subtraction and stock reserve holds',
+      'Automated printable PDF invoices and CSV sales audit reports',
+      'Delivery tracking system with destination map pins and courier status updates'
     ],
-    github: 'https://github.com/KYmer-dotcom/crisostomo-portfolio',
-    demo: '#'
+    github: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-',
+    demo: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-'
   }
 };
 
