@@ -262,45 +262,46 @@ function initProjectFilters() {
    ========================================================================== */
 const projectDetails = {
   lantad_crayfish: {
-    title: 'Silay Superworm & Crayfish Aquaculture Management System',
-    category: 'Full-Stack Enterprise Capstone & Aquaculture IoT',
-    desc: 'An enterprise-grade aquaculture and inventory management system designed and developed by Kymer Oriel Crisostomo for the Lantad Crayfish & Superworm Farm in Silay. Built using Django 6.x, Django REST Framework, HTMX, and SQLite3/PostgreSQL. Automates farm pond monitoring, live temperature & pH water telemetry, breeding cycle records, commercial pricing, and scheduled deliveries.',
-    tech: ['Django 6.x', 'Django REST Framework', 'HTMX Partials', 'Python', 'Tailwind / Vanilla CSS', 'SQLite3 / PostgreSQL', 'JWT Auth', 'Pillow'],
+    title: 'Aquaculture Farm Tracking and Sales System (Lantad Crayfish)',
+    category: 'Information Systems & Farm Management',
+    desc: 'Designed modules for stock monitoring, harvest management, sales, inventory, orders, and reports for the Lantad Crayfish & Silay Superworm Farm. Focused on organizing farm stock and sales information for easier monitoring, batch tracking, and delivery dispatch.',
+    tech: ['Django', 'Python', 'Stock Monitoring', 'Harvest Management', 'Sales & Inventory', 'Reporting', 'PostgreSQL / SQLite'],
     features: [
-      'Real-Time Water Telemetry: Live temperature (28.1°C), dissolved oxygen (DO), and pH tracking for farm ponds',
-      'Automated Stock Lifecycle Tracking: Batch-level maturity records for Redclaw Breeder Crayfish (₱2,500/kg), Superworms (₱500/kg), and Azolla feeds (₱35/kg)',
-      'Delivery & Logistics Dispatch: Order routing, shipment statuses, interactive delivery map pins, and transaction tracking',
-      'Multi-Tier Role Administration: Dedicated portals and permissions for Owner, Farm Manager, Caretakers, and Customers',
-      'Predictive Reports & Forecasts: AI-driven harvest yield forecasting with downloadable PDF and CSV analytical exports'
+      'Designed modules for stock monitoring, harvest management, sales, inventory, orders, and reports',
+      'Focused on organizing farm stock and sales information for easier monitoring',
+      'Breeder crayfish (Redclaw) lifecycle records, superworm feeding trays, and Azolla feed inventory',
+      'Sales order billing, delivery status tracking, and automated reporting'
     ],
     github: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-',
     demo: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-'
   },
-  lantad_stock: {
-    title: 'Lantad Stock Monitoring & Breeding Module',
-    category: 'Aquaculture Stock Lifecycle Management (apps/fish)',
-    desc: 'Specialized aquatic species classification and density tracking module within the Lantad Crayfish system. Governs Redclaw Crayfish breeder pairs, superworm feeding grids, molting observations, and mortality mitigation algorithms.',
-    tech: ['Django apps/fish', 'HTMX Partials', 'Python', 'Database Aggregations'],
+  employee_task: {
+    title: 'Web-Based Employee Task Monitoring System',
+    category: 'Operations Management & Workflow Systems',
+    desc: 'Developed a system concept for creating, assigning, monitoring, and documenting employee tasks. Designed admin and employee workflows with task evidence and reporting to ensure transparent team operations.',
+    tech: ['Web Development', 'Django / Python', 'Workflow Architecture', 'Role-Based Access Control', 'Task Evidence Reporting'],
     features: [
-      'Active batch maturity timelines for Redclaw Crayfish (Batch #104: 12,500 units)',
-      'Superworm grid cultivation trays with scheduled nutritional rotation',
-      'Feeding weight calculation based on biomass and pond temperature'
+      'Developed a system concept for creating, assigning, monitoring, and documenting employee tasks',
+      'Designed admin and employee workflows with task evidence and progress verification',
+      'Task status pipelines (To Do, In Progress, Review, Completed) with deadline monitoring',
+      'Centralized reporting dashboard for managers to review task evidence and audit logs'
     ],
-    github: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-',
-    demo: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-'
+    github: 'https://github.com/KYmer-dotcom',
+    demo: 'https://github.com/KYmer-dotcom'
   },
-  lantad_sales: {
-    title: 'Lantad Commercial Sales & Inventory Dispatch',
-    category: 'E-Commerce & Supply Chain Logistics (apps/sales)',
-    desc: 'Commercial sales management module facilitating customer orders, pricing tables (Azolla ₱35/kg, Superworm ₱500/kg, Crayfish ₱2,500/kg), payment receipts, and delivery dispatch logistics.',
-    tech: ['Django apps/sales', 'Django REST Framework', 'PDF/CSV Generators', 'Session & JWT Auth'],
+  django_apps: {
+    title: 'Django Web Application Development & Cloud Databases',
+    category: 'Database-Driven Web Systems',
+    desc: 'Experience building database-driven web systems using Django and Bootstrap. Worked with PostgreSQL and explored deployment and cloud database solutions for scalable web platforms.',
+    tech: ['Django', 'Bootstrap', 'PostgreSQL', 'SQLite', 'Cloud Databases', 'Python', 'REST APIs'],
     features: [
-      'Customer order processing with live inventory subtraction and stock reserve holds',
-      'Automated printable PDF invoices and CSV sales audit reports',
-      'Delivery tracking system with destination map pins and courier status updates'
+      'Experience building database-driven web systems using Django and Bootstrap',
+      'Worked with PostgreSQL and explored deployment and cloud database solutions',
+      'Modular app architectures, database schema normalization, and automated migrations',
+      'Clean template inheritance with responsive Bootstrap components'
     ],
-    github: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-',
-    demo: 'https://github.com/KYmer-dotcom/Lantad-Crayfish-Lantad-'
+    github: 'https://github.com/KYmer-dotcom',
+    demo: 'https://github.com/KYmer-dotcom'
   }
 };
 

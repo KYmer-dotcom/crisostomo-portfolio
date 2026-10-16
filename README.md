@@ -104,8 +104,11 @@ npx serve .
 ## 👨‍💻 Author
 
 **Kymer Oriel Crisostomo**  
-- **Email:** [kymerorielcrisostomo@gmail.com](mailto:kymerorielcrisostomo@gmail.com)  
+- **Degree:** Bachelor of Science in Information Systems (4th Year Student)  
+- **Institution:** Carlos Hilado Memorial State University (CHMSU)  
+- **Specialization:** Web Development | Information Systems | Database Management  
+- **Email:** [kymer.oriel@gmail.com](mailto:kymer.oriel@gmail.com)  
 - **GitHub:** [@KYmer-dotcom](https://github.com/KYmer-dotcom)  
 
 ---
-*Prepared with pride for project and design checking.*
+*KYMER ORIEL CRISOSTOMO | BS INFORMATION SYSTEMS | CHMSU*
