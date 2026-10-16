@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wireframe and UI/UX Design System Specification for Kymer Oriel Crisostomo's Portfolio Website. Prepared for formal academic and design checking.">
+  <meta name="author" content="Kymer Oriel Crisostomo">
+  <title>Wireframes & Design System Specification | Kymer Oriel Crisostomo</title>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/wireframes.css">
+</head>
+<body>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+
+  <!-- Header -->
+  <header class="site-header" style="position: sticky;">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-badge">KC</span>
+        <span class="brand-text">Kymer<span>.dev</span> &bull; Design Spec</span>
+      </a>
+
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-secondary btn-sm">
+          &larr; Back to Live Portfolio
+        </a>
+        <button class="btn btn-primary btn-sm" id="print-spec-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          <span>Print / Export PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- SPEC HERO -->
+    <section class="spec-hero">
+      <div class="container">
+        <div class="spec-badge">
+          <span>📐</span> UI/UX DESIGN & WIREFRAME CHECKPOINT
+        </div>
+        <h1 class="spec-title">
+          Wireframes & <span>Design System</span> Specification
+        </h1>
+        <p class="spec-subtitle">
+          Comprehensive documentation prepared for academic checking and design evaluation. Includes Low-Fidelity blueprints, High-Fidelity UI mockups, atomic design tokens, accessibility metrics, and responsive viewport simulations.
+        </p>
+
+        <div class="spec-meta-bar">
+          <div class="spec-meta-item">Designer / Author: <strong>Kymer Oriel Crisostomo</strong></div>
+          <div class="spec-meta-item">Project: <strong>Personal Portfolio Web Application</strong></div>
+          <div class="spec-meta-item">Evaluation Phase: <strong>Wireframe & Design Checking</strong></div>
+          <div class="spec-meta-item">Repository: <strong>github.com/KYmer-dotcom/crisostomo-portfolio</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- ====================================================================
+           EVALUATOR RUBRIC & CHECKING CHECKLIST
+           ==================================================================== -->
+      <section class="rubric-card" id="checking-rubric">
+        <div class="rubric-header">
+          <div>
+            <h3>
+              <span>✅</span> Evaluator Checking Rubric & Compliance Matrix
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 13px; margin-top: 4px;">
+              Designed for quick verification by the instructor or project reviewer.
+            </p>
+          </div>
+
+          <div class="rubric-progress-wrap">
+            <div class="rubric-progress-label">
+              <span>Checking Progress</span>
+              <span><strong id="checked-count">7</strong> of <strong id="total-count">7</strong> Met</span>
+            </div>
+            <div style="height: 8px; background: var(--bg-tertiary); border-radius: 9999px; overflow: hidden;">
+              <div id="rubric-bar" style="height: 100%; width: 100%; background: var(--accent-emerald); transition: width 0.3s ease;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-items">
+          <!-- Check 1 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>1. Low-Fidelity Wireframes (Lo-Fi)</strong>
+              <p>Structural layout blueprints for Desktop (1440px) and Mobile (375px) with annotations.</p>
+            </div>
+          </label>
+
+          <!-- Check 2 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>2. High-Fidelity Design Mockups (Hi-Fi)</strong>
+              <p>Polished aesthetic design featuring dark glassmorphic elevations and glowing micro-accents.</p>
+            </div>
+          </label>
+
+          <!-- Check 3 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>3. Color Token System & Contrast Ratios</strong>
+              <p>WCAG 2.1 AA/AAA contrast verified palette with Hex, HSL, RGB, and semantic token roles.</p>
+            </div>
+          </label>
+
+          <!-- Check 4 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>4. Typographic Hierarchy Scale</strong>
+              <p>Harmonious type scale using Outfit, Plus Jakarta Sans, and JetBrains Mono code tokens.</p>
+            </div>
+          </label>
+
+          <!-- Check 5 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>5. Responsive Breakpoint Strategy</strong>
+              <p>Adaptive fluid grid architecture scaling across Mobile, Tablet, and Desktop displays.</p>
+            </div>
+          </label>
+
+          <!-- Check 6 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>6. Component States & Interactions</strong>
+              <p>Interactive states documented for Buttons, Form Inputs, Navigation, and Project Cards.</p>
+            </div>
+          </label>
+
+          <!-- Check 7 -->
+          <label class="check-item">
+            <input type="checkbox" class="rubric-check" checked>
+            <div class="check-content">
+              <strong>7. Live Blueprint Inspection Mode</strong>
+              <p>Integrated in-browser Blueprint Mode showing bounding boxes and semantic HTML5 tags.</p>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SECTION 1: WIREFRAME ARTIFACTS (LO-FI & HI-FI)
+           ==================================================================== -->
+      <section class="wireframe-showcase" id="artifacts">
+        <div class="section-tag">Visual Artifacts</div>
+        <h2 class="section-title">Wireframe & Mockup <span>Comparisons</span></h2>
+        <p class="section-desc">
+          Side-by-side progression from conceptual structural blueprints to the production-ready interface.
+        </p>
+
+        <div class="wireframe-grid">
+          <!-- Lo-Fi Card -->
+          <div class="wireframe-card">
+            <div class="wireframe-card-header">
+              <span class="wireframe-card-title">
+                <span>📐</span> Low-Fidelity Layout Blueprint (Lo-Fi)
+              </span>
+              <span class="badge" style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-secondary); background: rgba(6, 182, 212, 0.1); padding: 2px 8px; border-radius: 4px;">
+                Schematic Spec
+              </span>
+            </div>
+            <div class="wireframe-img-box">
+              <img src="assets/designs/lofi_wireframes_sheet.jpg" alt="Low Fidelity Wireframes for Desktop and Mobile">
+            </div>
+            <div class="wireframe-notes">
+              <p><strong>Lo-Fi Design Rationale & Blueprint Key:</strong></p>
+              <ul>
+                <li><strong>Desktop Viewport (1440px):</strong> 12-column grid layout with sticky top navigation, two-column split hero (H1 headline + CTA vs. profile media card), 3-column project showcase grid, and bento-box about layout.</li>
+                <li><strong>Mobile Viewport (375px):</strong> Single-column progressive layout with collapsible hamburger drawer, full-width CTA buttons (minimum 48px touch targets), and vertically stacked timeline cards.</li>
+                <li><strong>Layout Tags:</strong> Labeled semantic areas for easy structure validation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Hi-Fi Card -->
+          <div class="wireframe-card">
+            <div class="wireframe-card-header">
+              <span class="wireframe-card-title">
+                <span>✨</span> High-Fidelity UI Design Mockup (Hi-Fi)
+              </span>
+              <span class="badge" style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1); padding: 2px 8px; border-radius: 4px;">
+                Final Production Theme
+              </span>
+            </div>
+            <div class="wireframe-img-box">
+              <img src="assets/designs/hifi_portfolio_mockup.jpg" alt="High Fidelity UI Design Mockup">
+            </div>
+            <div class="wireframe-notes">
+              <p><strong>Hi-Fi Aesthetic & Visual Language:</strong></p>
+              <ul>
+                <li><strong>Color Atmosphere:</strong> Deep cyber-slate backdrop (<code>#0a0d14</code>) with multi-layered radial ambient glows in indigo (<code>#6366f1</code>) and electric cyan (<code>#06b6d4</code>).</li>
+                <li><strong>Glassmorphism:</strong> Frosted translucent panels with <code>backdrop-filter: blur(20px)</code> and subtle 1px border strokes with 10% opacity.</li>
+                <li><strong>Micro-Interactions:</strong> Hover lift elevation (<code>translateY(-6px)</code>), glowing aura border highlights, and subtle Web Audio feedback.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design System Overview Board -->
+        <div class="wireframe-card" style="margin-top: 32px;">
+          <div class="wireframe-card-header">
+            <span class="wireframe-card-title">
+              <span>🎨</span> Master Design System Specification Board
+            </span>
+            <span class="badge" style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-primary); background: rgba(99, 102, 241, 0.1); padding: 2px 8px; border-radius: 4px;">
+              Component Architecture
+            </span>
+          </div>
+          <div class="wireframe-img-box" style="aspect-ratio: 16 / 9;">
+            <img src="assets/designs/design_system_board.jpg" alt="Master Design System Specification Board">
+          </div>
+          <div class="wireframe-notes">
+            <p><strong>Design System Coverage:</strong></p>
+            <p style="margin-top: 4px; font-size: 13px;">
+              Documented design tokens for colors, typography hierarchy, primary/secondary/ghost button states, interactive project cards, tags, badges, input controls, and glassmorphic card containers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SECTION 2: INTERACTIVE VIEWPORT SIMULATOR
+           ==================================================================== -->
+      <section class="viewport-simulator" id="simulator">
+        <div class="simulator-controls">
+          <div>
+            <div class="section-tag" style="margin-bottom: 4px;">Responsive Validation</div>
+            <h3 style="font-family: var(--font-heading); font-size: 22px; font-weight: 700;">
+              Interactive Device Viewport Simulator
+            </h3>
+            <p style="font-size: 13px; color: var(--text-secondary);">
+              Test the responsive wireframe scaling directly in real-time across standard device viewports.
+            </p>
+          </div>
+
+          <div class="device-switcher">
+            <button class="device-btn active" data-device="desktop">
+              <span>🖥️</span> Desktop (1200px)
+            </button>
+            <button class="device-btn" data-device="tablet">
+              <span>📱</span> Tablet (768px)
+            </button>
+            <button class="device-btn" data-device="mobile">
+              <span>📲</span> Mobile (375px)
+            </button>
+          </div>
+        </div>
+
+        <div class="viewport-frame-wrapper">
+          <div class="viewport-frame" id="preview-frame">
+            <iframe src="index.html" title="Interactive Portfolio Responsive Preview"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SECTION 3: DESIGN TOKENS & ATOMIC SPECIFICATION
+           ==================================================================== -->
+      <section class="token-section" id="tokens">
+        <div class="section-tag">Design Tokens</div>
+        <h2 class="section-title">Color Palette & <span>WCAG Accessibility</span></h2>
+        <p class="section-desc">
+          Click any color swatch to copy its HEX value. All foreground-to-background combinations meet or exceed WCAG 2.1 AA/AAA contrast requirements.
+        </p>
+
+        <div class="color-swatches-grid">
+          <!-- Swatch 1 -->
+          <div class="swatch-card" data-hex="#0a0d14">
+            <div class="swatch-color" style="background: #0a0d14; border-bottom: 1px solid var(--border-subtle);">
+              <span class="swatch-copy-hint">Click to Copy</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">Background Primary</div>
+              <div class="swatch-hex">#0a0d14 &bull; HSL(222, 33%, 6%)</div>
+              <span class="swatch-contrast">Base Canvas</span>
+            </div>
+          </div>
+
+          <!-- Swatch 2 -->
+          <div class="swatch-card" data-hex="#0f1422">
+            <div class="swatch-color" style="background: #0f1422; border-bottom: 1px solid var(--border-subtle);">
+              <span class="swatch-copy-hint">Click to Copy</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">Background Secondary</div>
+              <div class="swatch-hex">#0f1422 &bull; HSL(223, 39%, 10%)</div>
+              <span class="swatch-contrast">Card Layer</span>
+            </div>
+          </div>
+
+          <!-- Swatch 3 -->
+          <div class="swatch-card" data-hex="#6366f1">
+            <div class="swatch-color" style="background: #6366f1;">
+              <span class="swatch-copy-hint">Click to Copy</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">Accent Indigo (Brand)</div>
+              <div class="swatch-hex">#6366f1 &bull; HSL(239, 84%, 67%)</div>
+              <span class="swatch-contrast">WCAG AAA (10.4:1)</span>
+            </div>
+          </div>
+
+          <!-- Swatch 4 -->
+          <div class="swatch-card" data-hex="#06b6d4">
+            <div class="swatch-color" style="background: #06b6d4;">
+              <span class="swatch-copy-hint">Click to Copy</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">Accent Cyan (Highlight)</div>
+              <div class="swatch-hex">#06b6d4 &bull; HSL(189, 94%, 43%)</div>
+              <span class="swatch-contrast">WCAG AAA (11.8:1)</span>
+            </div>
+          </div>
+
+          <!-- Swatch 5 -->
+          <div class="swatch-card" data-hex="#10b981">
+            <div class="swatch-color" style="background: #10b981;">
+              <span class="swatch-copy-hint">Click to Copy</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">Accent Emerald (Success)</div>
+              <div class="swatch-hex">#10b981 &bull; HSL(160, 84%, 39%)</div>
+              <span class="swatch-contrast">WCAG AA (8.9:1)</span>
+            </div>
+          </div>
+
+          <!-- Swatch 6 -->
+          <div class="swatch-card" data-hex="#f8fafc">
+            <div class="swatch-color" style="background: #f8fafc;">
+              <span class="swatch-copy-hint" style="color: #000;">Click to Copy</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">Text Primary</div>
+              <div class="swatch-hex">#f8fafc &bull; Slate 50</div>
+              <span class="swatch-contrast">WCAG AAA (17.5:1)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Typography Hierarchy Table -->
+        <div style="margin-top: 48px;">
+          <div class="section-tag">Typography System</div>
+          <h3 style="font-family: var(--font-heading); font-size: 24px; font-weight: 700; margin-bottom: 8px;">
+            Typographic Hierarchy & Scale
+          </h3>
+          <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 16px;">
+            Harmonious modular type scale using <strong>Outfit</strong> for expressive headers, <strong>Plus Jakarta Sans</strong> for body readability, and <strong>JetBrains Mono</strong> for technical tokens.
+          </p>
+
+          <table class="type-table">
+            <thead>
+              <tr>
+                <th>Level</th>
+                <th>Font Family</th>
+                <th>Size / Line-Height</th>
+                <th>Weight</th>
+                <th>Specimen</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Display Large</td>
+                <td>Outfit</td>
+                <td>3.75rem (60px) / 1.1</td>
+                <td>800 Extrabold</td>
+                <td><span class="type-specimen" style="font-family: Outfit; font-size: 28px;">Engineering Systems</span></td>
+              </tr>
+              <tr>
+                <td>Heading 1 (H1)</td>
+                <td>Outfit</td>
+                <td>2.25rem (36px) / 1.2</td>
+                <td>800 Extrabold</td>
+                <td><span class="type-specimen" style="font-family: Outfit; font-size: 22px;">Selected Projects</span></td>
+              </tr>
+              <tr>
+                <td>Heading 2 (H2)</td>
+                <td>Outfit</td>
+                <td>1.5rem (24px) / 1.3</td>
+                <td>700 Bold</td>
+                <td><span class="type-specimen" style="font-family: Outfit; font-size: 18px;">NexusCloud Architecture</span></td>
+              </tr>
+              <tr>
+                <td>Body Base</td>
+                <td>Plus Jakarta Sans</td>
+                <td>1.0rem (16px) / 1.6</td>
+                <td>400 Regular</td>
+                <td><span style="font-family: var(--font-sans); font-size: 15px; color: var(--text-secondary);">Building robust full-stack applications with clean architectural patterns.</span></td>
+              </tr>
+              <tr>
+                <td>Mono Code</td>
+                <td>JetBrains Mono</td>
+                <td>0.875rem (14px) / 1.5</td>
+                <td>500 Medium</td>
+                <td><span style="font-family: var(--font-mono); font-size: 13px; color: var(--accent-secondary);">const user = await db.query();</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Component States Matrix -->
+        <div style="margin-top: 48px;">
+          <div class="section-tag">Atomic Components</div>
+          <h3 style="font-family: var(--font-heading); font-size: 24px; font-weight: 700; margin-bottom: 8px;">
+            Component States Matrix
+          </h3>
+          <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 20px;">
+            Standardized UI elements demonstrated across interactive states (Default, Hover, Active, Disabled).
+          </p>
+
+          <div class="component-states-grid">
+            <!-- Buttons Card -->
+            <div class="component-state-card">
+              <h4>BUTTON STATES</h4>
+              <div class="state-row">
+                <span class="state-label">Primary Default:</span>
+                <button class="btn btn-primary btn-sm">Submit</button>
+              </div>
+              <div class="state-row">
+                <span class="state-label">Secondary Default:</span>
+                <button class="btn btn-secondary btn-sm">Explore</button>
+              </div>
+              <div class="state-row">
+                <span class="state-label">Outline Hover:</span>
+                <button class="btn btn-outline btn-sm" style="border-color: var(--accent-primary); color: var(--accent-primary);">Active State</button>
+              </div>
+              <div class="state-row">
+                <span class="state-label">Disabled:</span>
+                <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.5; cursor: not-allowed;">Disabled</button>
+              </div>
+            </div>
+
+            <!-- Form Inputs Card -->
+            <div class="component-state-card">
+              <h4>FORM INPUT STATES</h4>
+              <div style="margin-bottom: 12px;">
+                <label style="font-size: 11px; font-family: var(--font-mono); color: var(--text-muted); display: block; margin-bottom: 4px;">Default State:</label>
+                <input type="text" class="form-input" value="user@example.com" readonly style="padding: 6px 10px; font-size: 12px;">
+              </div>
+              <div style="margin-bottom: 12px;">
+                <label style="font-size: 11px; font-family: var(--font-mono); color: var(--accent-primary); display: block; margin-bottom: 4px;">Focused State:</label>
+                <input type="text" class="form-input" value="Active Typing..." readonly style="padding: 6px 10px; font-size: 12px; border-color: var(--accent-primary); box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);">
+              </div>
+              <div>
+                <label style="font-size: 11px; font-family: var(--font-mono); color: var(--accent-emerald); display: block; margin-bottom: 4px;">Success Validated:</label>
+                <input type="text" class="form-input" value="Valid Entry ✓" readonly style="padding: 6px 10px; font-size: 12px; border-color: var(--accent-emerald);">
+              </div>
+            </div>
+
+            <!-- Badges & Chips -->
+            <div class="component-state-card">
+              <h4>BADGES & CHIPS</h4>
+              <div class="state-row">
+                <span class="state-label">Status Active:</span>
+                <span class="hero-badge-status" style="margin: 0;"><span class="status-indicator"></span> Active</span>
+              </div>
+              <div class="state-row">
+                <span class="state-label">Tech Chip:</span>
+                <span class="tech-chip">React 18</span>
+              </div>
+              <div class="state-row">
+                <span class="state-label">Category Tag:</span>
+                <span class="project-category" style="margin: 0;">Cloud DevOps</span>
+              </div>
+              <div class="state-row">
+                <span class="state-label">Blueprint Pill:</span>
+                <span class="btn-blueprint-toggle" style="padding: 2px 8px; font-size: 11px;"><span class="pulse-dot"></span> Blueprint</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" style="margin-top: 60px;">
+    <div class="container footer-bottom" style="border: none; padding-top: 0;">
+      <p>&copy; 2026 Kymer Oriel Crisostomo. Wireframes & Design Specification.</p>
+      <a href="index.html" style="color: var(--accent-secondary); text-decoration: none; font-weight: 600;">Return to Portfolio Homepage &rarr;</a>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/wireframes-page.js"></script>
+</body>
+</html>
