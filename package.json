@@ -1,0 +1,14 @@
+{
+  "name": "crisostomo-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website & UI/UX Wireframe Specification for Kymer Oriel Crisostomo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Kymer Oriel Crisostomo",
+  "license": "MIT"
+}

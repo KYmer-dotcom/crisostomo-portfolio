@@ -1,14 +1,9 @@
 services:
   - type: web
     name: crisostomo-portfolio
-    env: static
+    env: node
     buildCommand: ""
-    staticPublishPath: ./
-    headers:
-      - path: /*
-        name: X-Frame-Options
-        value: SAMEORIGIN
-    routes:
-      - type: rewrite
-        source: /wireframes
-        destination: /wireframes.html
+    startCommand: "node server.js"
+    envVars:
+      - key: NODE_VERSION
+        value: 20
